@@ -1,0 +1,9 @@
+id,text,score20,rawS,positivePercent,negativePercent,dominantBucket
+"contrast-positive","The movie was long and boring, but the ending was fantastic.",11.7517,0.3080,61.1111,38.8889,"JOY_POS"
+"strong-negative","The staff was friendly, but the food was absolutely disgusting.",6.6762,-1.7820,12.8440,87.1560,"DISGUST_NEG"
+"escalation-positive","I am not only happy, but also thrilled about this opportunity!",17.8893,3.8743,100.0000,0.0000,"JOY_POS"
+"escalation-negative","She is not only sad, but also devastated and heartbroken.",2.9081,-5.9133,0.0000,100.0000,"SADNESS_NEG"
+"mixed-emotion","I am angry about the delay, but relieved that we are safe.",11.6984,0.4290,64.2336,35.7664,"JOY_POS"
+"negation","I am not happy with this result.",7.8825,-0.6300,0.0000,100.0000,"JOY_NEG"
+"fear-intensifier","I was shocked by the news, and now I am deeply worried.",7.8754,-1.2630,0.0000,100.0000,"FEAR_NEG"
+"positive","I feel happy and proud today.",15.0426,1.8200,100.0000,0.0000,"JOY_POS"

@@ -1,0 +1,499 @@
+1. The movie was long and boring, but the ending was fantastic.
+
+SCORE EXPLANATION (Rule-Based)
+01) cue = "fantastic" label = JOY  v=0.700  a=1.100  w=1.100  c=0.8470
+    notes: [post-contrast weight due to contrast marker "but"]
+02) cue = "boring" label = SADNESS  v=-0.700  a=1.100  w=0.700  c=-0.5390
+    notes: [pre-contrast weight due to contrast marker "but"]
+rawS =  SUM OF c = 0.3080
+Total cue = 2, sMax = m * wMax * intensityClampA = 6.0000
+z = rawS/sMax = 0.0513 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=0.1752
+Score20 = 10 + 10*y = 11.75
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {JOY_POS=51.6%, SADNESS_NEG=33.4%, JOY_NEU=8.9%, SADNESS_NEU=6.1%}
+
+2. I really like the design, however, the price is ridiculous.
+Rule Based Analyzer 
+[RULE_BASED] Score: 11.00/20 (rawS = 0.0000, +%=0.0, -%=0.0, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+No contributions (no matched cues) || rawS = 0 -> score is neutral-ish
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {NEUTRAL=100.0%}
+
+3. The staff was friendly, but the food was absolutely disgusting.
+
+SCORE EXPLANATION (Rule-Based)
+01) cue = "disgusting" label = DISGUST  v=-0.950  a=2.000  w=1.100  c=-2.0900
+    notes: [post-contrast weight due to contrast marker "but", Modifiers: "absolutely" (INTENSIFIER x1.60) => total x1.60]
+02) cue = "friendly" label = JOY  v=0.550  a=0.800  w=0.700  c=0.3080
+    notes: [pre-contrast weight due to contrast marker "but"]
+rawS =  SUM OF c = -1.7820
+Total cue = 2, sMax = m * wMax * intensityClampA = 6.0000
+z = rawS/sMax = -0.2970 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=-0.3324
+Score20 = 10 + 10*y = 6.68
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {DISGUST_NEG=85.8%, JOY_POS=9.8%, JOY_NEU=4.4%}
+
+4. I was scared at first, but now I feel brave and confident.
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 8.32/20 (rawS = -0.5390, +%=0.0, -%=100.0, dominant=FEAR_NEG)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "scared" label = FEAR  v=-0.700  a=1.100  w=0.700  c=-0.5390
+    notes: [pre-contrast weight due to contrast marker "but"]
+rawS =  SUM OF c = -0.5390
+Total cue = 1, sMax = m * wMax * intensityClampA = 3.0000
+z = rawS/sMax = -0.1797 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=-0.1679
+Score20 = 10 + 10*y = 8.32
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {FEAR_NEG=84.5%, FEAR_NEU=15.5%}
+
+5. It is a beautiful house, yet the neighborhood is dangerous.
+Rule Based Analyzer 
+[RULE_BASED] Score: 11.00/20 (rawS = 0.0000, +%=0.0, -%=0.0, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+No contributions (no matched cues) || rawS = 0 -> score is neutral-ish
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {NEUTRAL=100.0%}
+
+6. I am not only happy, but also thrilled about this opportunity!
+
+SCORE EXPLANATION (Rule-Based)
+01) cue = "thrilled" label = JOY  v=0.950  a=1.850  w=1.380  c=2.4254
+    notes: [Escalate: "but also" (ESC x1.20) => total x1.20]
+02) cue = "happy" label = JOY  v=0.700  a=1.500  w=1.380  c=1.4490
+    notes: [Escalate: "not only" (ESC x1.20) => total x1.20]
+rawS =  SUM OF c = 3.8743
+Total cue = 2, sMax = m * wMax * intensityClampA = 6.0000
+z = rawS/sMax = 0.6457 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=0.7889
+Score20 = 10 + 10*y = 17.89
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {JOY_POS=95.3%, JOY_NEU=4.7%}
+
+7. She is not only sad, but also devastated and heartbroken.
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 2.91/20 (rawS = -5.9133, +%=0.0, -%=100.0, dominant=SADNESS_NEG)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "devastated" label = SADNESS  v=-0.950  a=1.850  w=1.380  c=-2.4254
+    notes: [Escalate: "but also" (ESC x1.20) => total x1.20]
+02) cue = "heartbroken" label = SADNESS  v=-0.950  a=1.850  w=1.380  c=-2.4254
+    notes: [Escalate: "but also" (ESC x1.20) => total x1.20]
+03) cue = "sad" label = SADNESS  v=-0.700  a=1.100  w=1.380  c=-1.0626
+    notes: [Escalate: "not only" (ESC x1.20) => total x1.20]
+rawS =  SUM OF c = -5.9133
+Total cue = 3, sMax = m * wMax * intensityClampA = 9.0000
+z = rawS/sMax = -0.6570 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=-0.7092
+Score20 = 10 + 10*y = 2.91
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {SADNESS_NEG=97.3%, SADNESS_NEU=2.7%}
+
+8. The room was not only dirty, but also smelly and gross.
+[RULE_BASED] Score: 7.28/20 (rawS = -2.2770, +%=0.0, -%=100.0, dominant=DISGUST_NEG)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "gross" label = DISGUST  v=-0.700  a=1.100  w=1.380  c=-1.0626
+    notes: [Escalate: "but also" (ESC x1.20) => total x1.20]
+02) cue = "dirty" label = DISGUST  v=-0.550  a=0.800  w=1.380  c=-0.6072
+    notes: [Escalate: "not only" (ESC x1.20) => total x1.20]
+03) cue = "smelly" label = DISGUST  v=-0.550  a=0.800  w=1.380  c=-0.6072
+    notes: [Escalate: "but also" (ESC x1.20) => total x1.20]
+rawS =  SUM OF c = -2.2770
+Total cue = 3, sMax = m * wMax * intensityClampA = 9.0000
+z = rawS/sMax = -0.2530 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=-0.2724
+Score20 = 10 + 10*y = 7.28
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {DISGUST_NEG=78.2%, DISGUST_NEU=21.8%
+
+9. He is not only smart, but also kind and generous.
+Rule Based Analyzer 
+[RULE_BASED] Score: 13.83/20 (rawS = 0.6072, +%=100.0, -%=0.0, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "kind" label = JOY  v=0.550  a=0.800  w=1.380  c=0.6072
+    notes: [Escalate: "but also" (ESC x1.20) => total x1.20]
+rawS =  SUM OF c = 0.6072
+Total cue = 1, sMax = m * wMax * intensityClampA = 3.0000
+z = rawS/sMax = 0.2024 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=0.3830
+Score20 = 10 + 10*y = 13.83
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {JOY_POS=70.2%, JOY_NEU=29.8%}
+
+10. This is not only a mistake, but also a disaster.
+
+ Rule Based Analyzer 
+[RULE_BASED] Score: 11.00/20 (rawS = 0.0000, +%=0.0, -%=0.0, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+No contributions (no matched cues) || rawS = 0 -> score is neutral-ish
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {NEUTRAL=100.0%}
+
+11. I am sad that you are leaving, but I am proud of your success.
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 11.75/20 (rawS = 0.3080, +%=61.1, -%=38.9, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "proud" label = JOY  v=0.700  a=1.100  w=1.100  c=0.8470
+    notes: [post-contrast weight due to contrast marker "but"]
+02) cue = "sad" label = SADNESS  v=-0.700  a=1.100  w=0.700  c=-0.5390
+    notes: [pre-contrast weight due to contrast marker "but"]
+rawS =  SUM OF c = 0.3080
+Total cue = 2, sMax = m * wMax * intensityClampA = 6.0000
+z = rawS/sMax = 0.0513 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=0.1752
+Score20 = 10 + 10*y = 11.75
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {JOY_POS=51.6%, SADNESS_NEG=33.4%, JOY_NEU=8.9%, SADNESS_NEU=6.1%}
+
+12. The roller coaster was terrifying but exciting at the same time.
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 11.00/20 (rawS = 0.0000, +%=0.0, -%=0.0, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+No contributions (no matched cues) || rawS = 0 -> score is neutral-ish
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {NEUTRAL=100.0%}
+
+13. I am angry about the delay, but relieved that we are safe.
+ 
+  Rule Based Analyzer 
+[RULE_BASED] Score: 11.70/20 (rawS = 0.4290, +%=64.2, -%=35.8, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "angry" label = ANGER  v=-0.700  a=1.100  w=0.700  c=-0.5390
+    notes: [pre-contrast weight due to contrast marker "but"]
+02) cue = "relieved" label = JOY  v=0.550  a=0.800  w=1.100  c=0.4840
+    notes: [post-contrast weight due to contrast marker "but"]
+03) cue = "safe" label = JOY  v=0.550  a=0.800  w=1.100  c=0.4840
+    notes: [post-contrast weight due to contrast marker "but"]
+rawS =  SUM OF c = 0.4290
+Total cue = 3, sMax = m * wMax * intensityClampA = 9.0000
+z = rawS/sMax = 0.0477 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=0.1698
+Score20 = 10 + 10*y = 11.70
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {JOY_POS=44.9%, ANGER_NEG=30.8%, JOY_NEU=18.7%, ANGER_NEU=5.7%}
+
+14. I feel guilty for what I did, yet hopeful that you will forgive me.
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 11.75/20 (rawS = 0.3080, +%=61.1, -%=38.9, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "hopeful" label = JOY  v=0.700  a=1.100  w=1.100  c=0.8470
+    notes: [post-contrast weight due to contrast marker "yet"]
+02) cue = "guilty" label = SADNESS  v=-0.700  a=1.100  w=0.700  c=-0.5390
+    notes: [pre-contrast weight due to contrast marker "yet"]
+rawS =  SUM OF c = 0.3080
+Total cue = 2, sMax = m * wMax * intensityClampA = 6.0000
+z = rawS/sMax = 0.0513 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=0.1752
+Score20 = 10 + 10*y = 11.75
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {JOY_POS=51.6%, SADNESS_NEG=33.4%, JOY_NEU=8.9%, SADNESS_NEU=6.1%}
+
+15. I was shocked by the news, and now I am deeply worried.
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 7.88/20 (rawS = -1.2630, +%=0.0, -%=100.0, dominant=FEAR_NEG)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "worried" label = FEAR  v=-0.700  a=1.540  w=1.000  c=-1.0780
+    notes: [Modifiers: "deeply" (INTENSIFIER x1.40) => total x1.40]
+02) cue = "shocked" label = SURPRISE  v=-0.100  a=1.850  w=1.000  c=-0.1850
+rawS =  SUM OF c = -1.2630
+Total cue = 2, sMax = m * wMax * intensityClampA = 6.0000
+z = rawS/sMax = -0.2105 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=-0.2125
+Score20 = 10 + 10*y = 7.88
+#### END EXPLANATION ####
+
+16. I am not happy with this result.
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 7.88/20 (rawS = -0.6300, +%=0.0, -%=100.0, dominant=JOY_NEG)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "happy" label = JOY  v=-0.525  a=1.200  w=1.000  c=-0.6300
+    notes: [Negation markers: "not" (NEG) => v: 0.70 -> -0.52, a x0.80]
+rawS =  SUM OF c = -0.6300
+Total cue = 1, sMax = m * wMax * intensityClampA = 3.0000
+z = rawS/sMax = -0.2100 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=-0.2117
+Score20 = 10 + 10*y = 7.88
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {JOY_NEG=52.6%, JOY_NEU=47.4%}
+
+17. I am not afraid of the dark anymore.
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 13.19/20 (rawS = 0.4620, +%=100.0, -%=0.0, dominant=FEAR_NEU)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "afraid of" label = FEAR  v=0.525  a=0.880  w=1.000  c=0.4620
+    notes: [Negation markers: "not" (NEG) => v: -0.70 -> 0.52, a x0.80]
+rawS =  SUM OF c = 0.4620
+Total cue = 1, sMax = m * wMax * intensityClampA = 3.0000
+z = rawS/sMax = 0.1540 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=0.3194
+Score20 = 10 + 10*y = 13.19
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {FEAR_NEU=50.1%, FEAR_POS=49.9%}
+
+18. This isn't bad at all, actually it is quite good.
+
+
+ Rule Based Analyzer 
+[RULE_BASED] Score: 11.00/20 (rawS = 0.0000, +%=0.0, -%=0.0, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+No contributions (no matched cues) || rawS = 0 -> score is neutral-ish
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {NEUTRAL=100.0%}
+Chart saved: data/emotion_pie_rule.png
+
+19. I don't hate it, but I don't love it either.
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 11.00/20 (rawS = 0.0000, +%=0.0, -%=0.0, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+No contributions (no matched cues) || rawS = 0 -> score is neutral-ish
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {NEUTRAL=100.0%}
+
+20. Great, my car broke down again.
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 13.10/20 (rawS = 0.4400, +%=100.0, -%=0.0, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "great" label = JOY  v=0.550  a=0.800  w=1.000  c=0.4400
+rawS =  SUM OF c = 0.4400
+Total cue = 1, sMax = m * wMax * intensityClampA = 3.0000
+z = rawS/sMax = 0.1467 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=0.3095
+Score20 = 10 + 10*y = 13.10
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {JOY_POS=69.7%, JOY_NEU=30.3%}
+
+21. I am SO ANGRY right now!!!
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 5.94/20 (rawS = -1.0626, +%=0.0, -%=100.0, dominant=ANGER_NEG)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "angry" label = ANGER  v=-0.700  a=1.518  w=1.000  c=-1.0626
+    notes: [Modifiers: "so" (INTENSIFIER x1.20) => total x1.20, Caps boost x1.15]
+rawS =  SUM OF c = -1.0626
+Total cue = 1, sMax = m * wMax * intensityClampA = 3.0000
+z = rawS/sMax = -0.3542 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=-0.4064
+Score20 = 10 + 10*y = 5.94
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {ANGER_NEG=87.4%, ANGER_NEU=12.6%}
+
+22. This is the BEST DAY EVER!
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 11.00/20 (rawS = 0.0000, +%=0.0, -%=0.0, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+No contributions (no matched cues) || rawS = 0 -> score is neutral-ish
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {NEUTRAL=100.0%}
+
+23. What a DISGUSTING and VILE behavior!
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 3.09/20 (rawS = -3.8000, +%=0.0, -%=100.0, dominant=DISGUST_NEG)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "disgusting" label = DISGUST  v=-0.950  a=2.000  w=1.000  c=-1.9000
+    notes: [Caps boost x1.15]
+02) cue = "vile" label = DISGUST  v=-0.950  a=2.000  w=1.000  c=-1.9000
+    notes: [Caps boost x1.15]
+rawS =  SUM OF c = -3.8000
+Total cue = 2, sMax = m * wMax * intensityClampA = 6.0000
+z = rawS/sMax = -0.6333 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=-0.6911
+Score20 = 10 + 10*y = 3.09
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {DISGUST_NEG=100.0%}
+
+
+24. I am TERRIFIED and cannot move.
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 3.09/20 (rawS = -1.9000, +%=0.0, -%=100.0, dominant=FEAR_NEG)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "terrified" label = FEAR  v=-0.950  a=2.000  w=1.000  c=-1.9000
+    notes: [Caps boost x1.15]
+rawS =  SUM OF c = -1.9000
+Total cue = 1, sMax = m * wMax * intensityClampA = 3.0000
+z = rawS/sMax = -0.6333 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=-0.6911
+Score20 = 10 + 10*y = 3.09
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {FEAR_NEG=100.0%}
+
+25. Absolutely AMAZING, WONDERFUL, and FANTASTIC!
+
+ Rule Based Analyzer 
+[RULE_BASED] Score: 16.18/20 (rawS = 3.7298, +%=100.0, -%=0.0, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "amazing" label = JOY  v=0.700  a=2.000  w=1.000  c=1.4000
+    notes: [Modifiers: "absolutely" (INTENSIFIER x1.60) => total x1.60, Caps boost x1.15]
+02) cue = "wonderful" label = JOY  v=0.700  a=2.000  w=1.000  c=1.4000
+    notes: [Modifiers: "absolutely" (INTENSIFIER x1.60) => total x1.60, Caps boost x1.15]
+03) cue = "fantastic" label = JOY  v=0.700  a=1.328  w=1.000  c=0.9298
+    notes: [Caps boost x1.15, Post punctuation: "!" (PUNC x1.05) => total x1.05]
+rawS =  SUM OF c = 3.7298
+Total cue = 3, sMax = m * wMax * intensityClampA = 9.0000
+z = rawS/sMax = 0.4144 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=0.6179
+Score20 = 10 + 10*y = 16.18
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {JOY_POS=89.7%, JOY_NEU=10.3%}
+
+
+TEST ROBUSTESS ET EDGE CASES
+
+""
+
+ Rule Based Analyzer 
+[RULE_BASED] Score: 11.00/20 (rawS = 0.0000, +%=0.0, -%=0.0, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+No contributions (no matched cues) || rawS = 0 -> score is neutral-ish
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {NEUTRAL=100.0%}
+
+$$$ %%% ^^^ &&& *** ((( ))) @@@ #!!
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 11.00/20 (rawS = 0.0000, +%=0.0, -%=0.0, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+No contributions (no matched cues) || rawS = 0 -> score is neutral-ish
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {NEUTRAL=100.0%}
+
+I am angry!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 6.36/20 (rawS = -0.9625, +%=0.0, -%=100.0, dominant=ANGER_NEG)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "angry" label = ANGER  v=-0.700  a=1.375  w=1.000  c=-0.9625
+    notes: [Post punctuation: "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!" (PUNC x1.25) => total x1.25]
+rawS =  SUM OF c = -0.9625
+Total cue = 1, sMax = m * wMax * intensityClampA = 3.0000
+z = rawS/sMax = -0.3208 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=-0.3638
+Score20 = 10 + 10*y = 6.36
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {ANGER_NEG=86.7%, ANGER_NEU=13.3%}
+
+Iamveryhappybutalsosad
+
+ Rule Based Analyzer 
+[RULE_BASED] Score: 11.00/20 (rawS = 0.0000, +%=0.0, -%=0.0, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+No contributions (no matched cues) || rawS = 0 -> score is neutral-ish
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {NEUTRAL=100.0%}
+
+I am 😡 and 😭 but mostly 😀
+
+ Rule Based Analyzer 
+[RULE_BASED] Score: 8.60/20 (rawS = -1.4456, +%=22.4, -%=77.6, dominant=ANGER_NEG)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "😡" label = ANGER  v=-0.950  a=1.800  w=0.700  c=-1.1970
+    notes: [pre-contrast weight due to contrast marker "but"]
+02) cue = "😭" label = SADNESS  v=-0.700  a=1.700  w=0.700  c=-0.8330
+    notes: [pre-contrast weight due to contrast marker "but"]
+03) cue = "😀" label = JOY  v=0.550  a=0.800  w=1.328  c=0.5844
+    notes: [post-contrast weight due to contrast marker "but", Escalate: "mostly" (ESC x1.05) => total x1.05]
+rawS =  SUM OF c = -1.4456
+Total cue = 3, sMax = m * wMax * intensityClampA = 9.0000
+z = rawS/sMax = -0.1606 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=-0.1400
+Score20 = 10 + 10*y = 8.60
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {ANGER_NEG=44.8%, SADNESS_NEG=28.2%, JOY_POS=16.1%, JOY_NEU=6.9%, SADNESS_NEU=3.9%}
+
+I am not not happy.
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 15.55/20 (rawS = 1.0500, +%=100.0, -%=0.0, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+01) cue = "happy" label = JOY  v=0.700  a=1.500  w=1.000  c=1.0500
+    notes: [Negation markers: "not" (NEG), "not" (NEG) => Double negation cancelled]
+rawS =  SUM OF c = 1.0500
+Total cue = 1, sMax = m * wMax * intensityClampA = 3.0000
+z = rawS/sMax = 0.3500 (clamped)
+y = tanh(k*z + b), k=1.50, b=0.10 => y=0.5546
+Score20 = 10 + 10*y = 15.55
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {JOY_POS=87.3%, JOY_NEU=12.7%}
+
+12345 67890 3.14159
+
+Rule Based Analyzer 
+[RULE_BASED] Score: 11.00/20 (rawS = 0.0000, +%=0.0, -%=0.0, dominant=JOY_POS)
+
+ SCORE EXPLANATION (Rule-Based)
+No contributions (no matched cues) || rawS = 0 -> score is neutral-ish
+#### END EXPLANATION #### 
+
+Emotion% (Rule): {NEUTRAL=100.0%}

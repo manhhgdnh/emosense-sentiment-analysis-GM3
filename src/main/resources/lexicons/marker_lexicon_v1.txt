@@ -1,0 +1,162 @@
+# MARKER LEXICON v1
+# FORMAT: phrase;TYPE;factor
+# TYPE: NEG, INT, DIM, CON, ESC
+
+not;NEG;1.00
+no;NEG;1.00
+never;NEG;1.00
+none;NEG;1.00
+nobody;NEG;1.00
+nothing;NEG;1.00
+nowhere;NEG;1.00
+neither;NEG;1.00
+nor;NEG;1.00
+cannot;NEG;1.00
+cant;NEG;1.00
+dont;NEG;1.00
+doesnt;NEG;1.00
+didnt;NEG;1.00
+wont;NEG;1.00
+wouldnt;NEG;1.00
+shouldnt;NEG;1.00
+couldnt;NEG;1.00
+isnt;NEG;1.00
+arent;NEG;1.00
+wasnt;NEG;1.00
+werent;NEG;1.00
+havent;NEG;1.00
+hasnt;NEG;1.00
+hadnt;NEG;1.00
+without;NEG;1.00
+hardly;NEG;1.00
+barely;NEG;1.00
+scarcely;NEG;1.00
+rarely;NEG;1.00
+seldom;NEG;1.00
+aint;NEG;1.00
+nope;NEG;1.00
+nah;NEG;1.00
+very;INT;1.35
+really;INT;1.35
+so;INT;1.20
+too;INT;1.40
+super;INT;1.60
+extremely;INT;1.80
+incredibly;INT;1.70
+highly;INT;1.40
+deeply;INT;1.40
+truly;INT;1.30
+absolutely;INT;1.60
+completely;INT;1.50
+totally;INT;1.60
+utterly;INT;1.70
+seriously;INT;1.40
+remarkably;INT;1.40
+especially;INT;1.30
+exceptionally;INT;1.30
+enormously;INT;1.50
+hugely;INT;1.40
+immensely;INT;1.35
+insanely;INT;1.80
+awfully;INT;1.30
+terribly;INT;1.30
+ridiculously;INT;1.30
+wildly;INT;1.50
+madly;INT;1.50
+mega;INT;1.60
+ultra;INT;1.80
+crazy;INT;1.50
+pretty;INT;1.10
+slightly;DIM;0.75
+somewhat;DIM;0.80
+rather;DIM;0.85
+kindof;DIM;0.85
+sortof;DIM;0.85
+a bit;DIM;0.80
+abit;DIM;0.80
+a little bit;DIM;0.75
+little;DIM;0.80
+mildly;DIM;0.85
+partly;DIM;0.90
+partially;DIM;0.80
+almost;DIM;0.90
+nearly;DIM;0.90
+fairly;DIM;0.90
+relatively;DIM;0.90
+moderately;DIM;0.85
+just;DIM;0.90
+kinda;DIM;0.85
+ish;DIM;0.90
+maybe;DIM;0.95
+perhaps;DIM;0.95
+but;CON;1.00
+however;CON;1.10
+though;CON;1.00
+although;CON;1.10
+yet;CON;1.00
+nevertheless;CON;1.10
+nonetheless;CON;1.10
+still;CON;1.00
+instead;CON;1.00
+whereas;CON;1.00
+while;CON;1.00
+despite;CON;1.10
+except;CON;1.00
+otherwise;CON;1.00
+rather than;CON;1.00
+on the other hand;CON;1.00
+even so;CON;1.00
+moreover;ESC;1.20
+furthermore;ESC;1.20
+also;ESC;1.05
+plus;ESC;1.05
+besides;ESC;1.05
+in addition;ESC;1.10
+additionally;ESC;1.20
+even more;ESC;1.20
+whats more;ESC;1.20
+another thing;ESC;1.10
+to top it off;ESC;1.10
+as well;ESC;1.10
+not only;ESC;1.20
+but also;ESC;1.20
+on top of that;ESC;1.10
+actually;ESC;1.05
+basically;ESC;1.05
+literally;ESC;1.05
+honestly;ESC;1.05
+frankly;ESC;1.10
+clearly;INT;1.35
+obviously;INT;1.50
+surely;ESC;1.10
+definitely;INT;1.45
+certainly;INT;1.35
+probably;DIM;0.90
+possibly;DIM;0.90
+apparently;DIM;0.90
+seemingly;DIM;0.90
+supposedly;DIM;0.90
+anyway;ESC;1.05
+anyhow;ESC;1.05
+regardless;CON;1.20
+even if;CON;1.15
+unless;CON;1.10
+until;ESC;1.05
+therefore;ESC;1.05
+thus;ESC;1.05
+hence;ESC;1.05
+because;ESC;1.05
+since;ESC;1.05
+consequently;ESC;1.05
+alternatively;CON;1.00
+overall;ESC;1.05
+generally;ESC;1.05
+specifically;ESC;1.05
+particularly;ESC;1.05
+mostly;ESC;1.05
+mainly;ESC;1.10
+exactly;INT;1.40
+precisely;INT;1.40
+entirely;INT;1.40
+fully;INT;1.40
+quite;DIM;0.90

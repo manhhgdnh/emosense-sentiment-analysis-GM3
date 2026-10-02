@@ -1,0 +1,65 @@
+{
+  "inputText": "The staff was friendly, but the food was absolutely disgusting.",
+  "source": "RULE_BASED",
+  "rawS": -1.7820,
+  "score20": 6.68,
+  "positivePercent": 12.8,
+  "negativePercent": 87.2,
+  "dominantBucket": "DISGUST_NEG",
+  "bucketPercents": {
+    "JOY_POS": 9.771,
+    "JOY_NEG": 0.000,
+    "JOY_NEU": 4.387,
+    "SADNESS_POS": 0.000,
+    "SADNESS_NEG": 0.000,
+    "SADNESS_NEU": 0.000,
+    "ANGER_POS": 0.000,
+    "ANGER_NEG": 0.000,
+    "ANGER_NEU": 0.000,
+    "FEAR_POS": 0.000,
+    "FEAR_NEG": 0.000,
+    "FEAR_NEU": 0.000,
+    "DISGUST_POS": 0.000,
+    "DISGUST_NEG": 85.842,
+    "DISGUST_NEU": 0.000,
+    "SURPRISE_POS": 0.000,
+    "SURPRISE_NEG": 0.000,
+    "SURPRISE_NEU": 0.000,
+    "NEUTRAL": 0.000
+  },
+  "explanation": {
+    "m": 2,
+    "sMax": 6.0000,
+    "z": -0.2970,
+    "k": 1.50,
+    "b": 0.10,
+    "y": -0.3324,
+    "score20Mapped": 6.68
+  },
+  "contributions": [
+    {
+      "cue": "disgusting",
+      "label": "DISGUST",
+      "startIndex": 9,
+      "endIndex": 9,
+      "nGramLen": 1,
+      "v": -0.950,
+      "a": 2.000,
+      "w": 1.100,
+      "c": -2.0900,
+      "notes": ["post-contrast weight due to contrast marker \"but\"", "Modifiers: \"absolutely\" (INTENSIFIER x1.60) => total x1.60"]
+    },
+    {
+      "cue": "friendly",
+      "label": "JOY",
+      "startIndex": 3,
+      "endIndex": 3,
+      "nGramLen": 1,
+      "v": 0.550,
+      "a": 0.800,
+      "w": 0.700,
+      "c": 0.3080,
+      "notes": ["pre-contrast weight due to contrast marker \"but\""]
+    }
+  ]
+}

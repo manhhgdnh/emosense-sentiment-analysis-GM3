@@ -1,0 +1,781 @@
+# EMOTION LEXICON v1
+# FORMAT: phrase;EMO;valence;baseIntensity;label
+# Labels: JOY, SADNESS, ANGER, FEAR, DISGUST, SURPRISE
+
+#ANGER/DISGUST : mild -0.55;0.80, medium -0.70;1.10, strong -0.95;1.85
+
+#JOY: mild 0.55;0.80, medium 0.70;1.10, strong 0.95;1.85
+
+#SADNESS/FEAR: mild -0.55;0.80, medium -0.70;1.10, strong -0.95;1.85
+
+#SURPRISE: pleasant surprise 0.10;0.80–1.10, neutral surprise 0.00;1.10, shock surprise: -0.10;1.85
+
+mad;EMO;-0.70;1.10;ANGER
+angry;EMO;-0.70;1.10;ANGER
+angrier;EMO;-0.70;1.10;ANGER
+angriest;EMO;-0.95;1.85;ANGER
+cross;EMO;-0.55;0.80;ANGER
+peeved;EMO;-0.55;0.80;ANGER
+miffed;EMO;-0.55;0.80;ANGER
+irked;EMO;-0.55;0.80;ANGER
+irksome;EMO;-0.55;0.80;ANGER
+put out;EMO;-0.55;0.80;ANGER
+ruffled;EMO;-0.55;0.80;ANGER
+bothered;EMO;-0.55;0.80;ANGER
+fed up;EMO;-0.70;1.10;ANGER
+sore;EMO;-0.55;0.80;ANGER
+huffy;EMO;-0.55;0.80;ANGER
+sulky;EMO;-0.55;0.80;ANGER
+restive;EMO;-0.70;1.10;ANGER
+fretful;EMO;-0.55;0.80;ANGER
+tetchy;EMO;-0.70;1.10;ANGER
+shirty;EMO;-0.70;1.10;ANGER
+prickly;EMO;-0.70;1.10;ANGER
+edgy;EMO;-0.55;0.80;ANGER
+aggravated;EMO;-0.70;1.10;ANGER
+aggravating;EMO;-0.70;1.10;ANGER
+exasperating;EMO;-0.70;1.10;ANGER
+provoking;EMO;-0.70;1.10;ANGER
+provocative;EMO;-0.70;1.10;ANGER
+vexatious;EMO;-0.70;1.10;ANGER
+nettlesome;EMO;-0.55;0.80;ANGER
+irritating;EMO;-0.70;1.10;ANGER
+annoying;EMO;-0.70;1.10;ANGER
+maddening;EMO;-0.70;1.10;ANGER
+infuriating;EMO;-0.95;1.85;ANGER
+enraging;EMO;-0.95;1.85;ANGER
+incensing;EMO;-0.95;1.85;ANGER
+inflamed;EMO;-0.70;1.10;ANGER
+heated;EMO;-0.70;1.10;ANGER
+outraged;EMO;-0.95;1.85;ANGER
+incandescent;EMO;-0.95;1.85;ANGER
+wrath filled;EMO;-0.95;1.85;ANGER
+steamed;EMO;-0.70;1.10;ANGER
+steaming;EMO;-0.70;1.10;ANGER
+steamed up;EMO;-0.70;1.10;ANGER
+fired up;EMO;-0.70;1.10;ANGER
+riled up;EMO;-0.70;1.10;ANGER
+worked up;EMO;-0.70;1.10;ANGER
+hot under the collar;EMO;-0.70;1.10;ANGER
+up in arms;EMO;-0.70;1.10;ANGER
+seeing red;EMO;-0.95;1.85;ANGER
+foaming at the mouth;EMO;-0.95;1.85;ANGER
+spitting mad;EMO;-0.95;1.85;ANGER
+fit to be tied;EMO;-0.95;1.85;ANGER
+hopping mad;EMO;-0.95;1.85;ANGER
+beside oneself;EMO;-0.95;1.85;ANGER
+in a rage;EMO;-0.95;1.85;ANGER
+in a fury;EMO;-0.95;1.85;ANGER
+in a temper;EMO;-0.70;1.10;ANGER
+angrily;EMO;-0.95;1.85;ANGER
+madly;EMO;-0.70;1.10;ANGER
+furiously;EMO;-0.95;1.85;ANGER
+irately;EMO;-0.70;1.10;ANGER
+indignantly;EMO;-0.70;1.10;ANGER
+resentfully;EMO;-0.70;1.10;ANGER
+bitterly;EMO;-0.70;1.10;ANGER
+spitefully;EMO;-0.70;1.10;ANGER
+vindictively;EMO;-0.70;1.10;ANGER
+vengefully;EMO;-0.70;1.10;ANGER
+maliciously;EMO;-0.70;1.10;ANGER
+malevolently;EMO;-0.70;1.10;ANGER
+hostilely;EMO;-0.70;1.10;ANGER
+aggressively;EMO;-0.70;1.10;ANGER
+belligerently;EMO;-0.70;1.10;ANGER
+combatively;EMO;-0.70;1.10;ANGER
+contentiously;EMO;-0.70;1.10;ANGER
+quarrelsomely;EMO;-0.70;1.10;ANGER
+pugnaciously;EMO;-0.70;1.10;ANGER
+truculently;EMO;-0.70;1.10;ANGER
+testily;EMO;-0.70;1.10;ANGER
+peevishly;EMO;-0.70;1.10;ANGER
+petulantly;EMO;-0.70;1.10;ANGER
+waspishly;EMO;-0.70;1.10;ANGER
+crankily;EMO;-0.70;1.10;ANGER
+crabbily;EMO;-0.70;1.10;ANGER
+cantankerously;EMO;-0.70;1.10;ANGER
+surlily;EMO;-0.70;1.10;ANGER
+sullenly;EMO;-0.70;1.10;ANGER
+grumpily;EMO;-0.70;1.10;ANGER
+grouchily;EMO;-0.70;1.10;ANGER
+touchily;EMO;-0.70;1.10;ANGER
+impatiently;EMO;-0.70;1.10;ANGER
+huffily;EMO;-0.70;1.10;ANGER
+sulkily;EMO;-0.70;1.10;ANGER
+heatedly;EMO;-0.70;1.10;ANGER
+wrathfully;EMO;-0.95;1.85;ANGER
+venomously;EMO;-0.95;1.85;ANGER
+irascible;EMO;-0.70;1.10;ANGER
+choleric;EMO;-0.70;1.10;ANGER
+splenetic;EMO;-0.70;1.10;ANGER
+rancorous;EMO;-0.70;1.10;ANGER
+grudging;EMO;-0.70;1.10;ANGER
+grudgingly;EMO;-0.70;1.10;ANGER
+resenting;EMO;-0.70;1.10;ANGER
+crossly;EMO;-0.70;1.10;ANGER
+irritably;EMO;-0.70;1.10;ANGER
+simmering;EMO;-0.95;1.85;ANGER
+boiling;EMO;-0.95;1.85;ANGER
+boiling mad;EMO;-0.95;1.85;ANGER
+simmering with anger;EMO;-0.95;1.85;ANGER
+in high dudgeon;EMO;-0.95;1.85;ANGER
+out for blood;EMO;-0.95;1.85;ANGER
+ready to explode;EMO;-0.95;1.85;ANGER
+ranting;EMO;-0.95;1.85;ANGER
+raving;EMO;-0.95;1.85;ANGER
+😡;EMO;-0.95;1.80;ANGER
+😠;EMO;-0.70;1.50;ANGER
+🤬;EMO;-0.95;1.85;ANGER
+
+disgusted;EMO;-0.70;1.10;DISGUST
+disgusting;EMO;-0.95;1.85;DISGUST
+revolted;EMO;-0.95;1.85;DISGUST
+revolting;EMO;-0.95;1.85;DISGUST
+repulsed;EMO;-0.95;1.85;DISGUST
+repulsive;EMO;-0.95;1.85;DISGUST
+sickened;EMO;-0.70;1.10;DISGUST
+sickening;EMO;-0.95;1.85;DISGUST
+nauseated;EMO;-0.70;1.10;DISGUST
+nauseating;EMO;-0.95;1.85;DISGUST
+gross;EMO;-0.70;1.10;DISGUST
+grotesque;EMO;-0.95;1.85;DISGUST
+abhorrent;EMO;-0.95;1.85;DISGUST
+loathsome;EMO;-0.95;1.85;DISGUST
+vile;EMO;-0.95;1.85;DISGUST
+foul;EMO;-0.70;1.10;DISGUST
+filthy;EMO;-0.70;1.10;DISGUST
+dirty;EMO;-0.55;0.80;DISGUST
+unclean;EMO;-0.55;0.80;DISGUST
+unsanitary;EMO;-0.70;1.10;DISGUST
+contaminated;EMO;-0.70;1.10;DISGUST
+toxic;EMO;-0.70;1.10;DISGUST
+putrid;EMO;-0.95;1.85;DISGUST
+rotten;EMO;-0.70;1.10;DISGUST
+decayed;EMO;-0.70;1.10;DISGUST
+moldy;EMO;-0.70;1.10;DISGUST
+rancid;EMO;-0.95;1.85;DISGUST
+fetid;EMO;-0.95;1.85;DISGUST
+rank;EMO;-0.70;1.10;DISGUST
+reeky;EMO;-0.70;1.10;DISGUST
+smelly;EMO;-0.55;0.80;DISGUST
+malodorous;EMO;-0.95;1.85;DISGUST
+stench filled;EMO;-0.95;1.85;DISGUST
+stinking;EMO;-0.70;1.10;DISGUST
+slimy;EMO;-0.70;1.10;DISGUST
+sticky;EMO;-0.55;0.80;DISGUST
+greasy;EMO;-0.55;0.80;DISGUST
+grimy;EMO;-0.70;1.10;DISGUST
+grubby;EMO;-0.55;0.80;DISGUST
+icky;EMO;-0.55;0.80;DISGUST
+yucky;EMO;-0.55;0.80;DISGUST
+nasty;EMO;-0.70;1.10;DISGUST
+awful;EMO;-0.70;1.10;DISGUST
+horrid;EMO;-0.70;1.10;DISGUST
+detestable;EMO;-0.95;1.85;DISGUST
+despicable;EMO;-0.95;1.85;DISGUST
+odious;EMO;-0.95;1.85;DISGUST
+offensive;EMO;-0.70;1.10;DISGUST
+obscene;EMO;-0.95;1.85;DISGUST
+lewd;EMO;-0.70;1.10;DISGUST
+perverted;EMO;-0.95;1.85;DISGUST
+perverse;EMO;-0.95;1.85;DISGUST
+corrupt;EMO;-0.70;1.10;DISGUST
+depraved;EMO;-0.95;1.85;DISGUST
+degenerate;EMO;-0.95;1.85;DISGUST
+degraded;EMO;-0.70;1.10;DISGUST
+degrading;EMO;-0.70;1.10;DISGUST
+shameful;EMO;-0.70;1.10;DISGUST
+appalled;EMO;-0.95;1.85;DISGUST
+appalling;EMO;-0.95;1.85;DISGUST
+horrified;EMO;-0.95;1.85;DISGUST
+horrifying;EMO;-0.95;1.85;DISGUST
+repelled;EMO;-0.95;1.85;DISGUST
+retching;EMO;-0.95;1.85;DISGUST
+queasy;EMO;-0.55;0.80;DISGUST
+squeamish;EMO;-0.70;1.10;DISGUST
+turned off;EMO;-0.55;0.80;DISGUST
+disapproving;EMO;-0.55;0.80;DISGUST
+contemptuous;EMO;-0.70;1.10;DISGUST
+disdainful;EMO;-0.70;1.10;DISGUST
+scornful;EMO;-0.70;1.10;DISGUST
+derisive;EMO;-0.70;1.10;DISGUST
+sardonic;EMO;-0.55;0.80;DISGUST
+cynical;EMO;-0.55;0.80;DISGUST
+abhorring;EMO;-0.95;1.85;DISGUST
+loathed;EMO;-0.95;1.85;DISGUST
+loathing;EMO;-0.95;1.85;DISGUST
+hated;EMO;-0.70;1.10;DISGUST
+hateful;EMO;-0.70;1.10;DISGUST
+revulsed;EMO;-0.95;1.85;DISGUST
+revulsion;EMO;-0.95;1.85;DISGUST
+ghastly;EMO;-0.95;1.85;DISGUST
+grisly;EMO;-0.95;1.85;DISGUST
+hideous;EMO;-0.95;1.85;DISGUST
+monstrous;EMO;-0.95;1.85;DISGUST
+atrocious;EMO;-0.95;1.85;DISGUST
+repellent;EMO;-0.95;1.85;DISGUST
+off putting;EMO;-0.55;0.80;DISGUST
+unpleasant;EMO;-0.55;0.80;DISGUST
+distasteful;EMO;-0.70;1.10;DISGUST
+distastefully;EMO;-0.70;1.10;DISGUST
+nauseously;EMO;-0.95;1.85;DISGUST
+repulsively;EMO;-0.95;1.85;DISGUST
+disgustedly;EMO;-0.70;1.10;DISGUST
+vilely;EMO;-0.95;1.85;DISGUST
+foully;EMO;-0.70;1.10;DISGUST
+filthily;EMO;-0.70;1.10;DISGUST
+obnoxious;EMO;-0.70;1.10;DISGUST
+obnoxiously;EMO;-0.70;1.10;DISGUST
+repugnant;EMO;-0.95;1.85;DISGUST
+abhorrently;EMO;-0.95;1.85;DISGUST
+🙄;EMO;-0.25;1.10;DISGUST
+🤢;EMO;-0.70;1.80;DISGUST
+🤮;EMO;-0.95;1.85;DISGUST
+😖;EMO;-0.70;1.30;DISGUST
+
+happy;EMO;0.70;1.50;JOY
+happier;EMO;0.70;1.10;JOY
+happiest;EMO;0.95;1.85;JOY
+joyful;EMO;0.70;1.10;JOY
+joyous;EMO;0.95;1.85;JOY
+jubilant;EMO;0.95;1.85;JOY
+elated;EMO;0.95;1.85;JOY
+ecstatic;EMO;0.95;1.85;JOY
+euphoric;EMO;0.95;1.85;JOY
+gleeful;EMO;0.95;1.85;JOY
+delighted;EMO;0.95;1.85;JOY
+thrilled;EMO;0.95;1.85;JOY
+overjoyed;EMO;0.95;1.85;JOY
+cheerful;EMO;0.70;1.10;JOY
+cheery;EMO;0.70;1.10;JOY
+merry;EMO;0.70;1.10;JOY
+jolly;EMO;0.70;1.10;JOY
+buoyant;EMO;0.70;1.10;JOY
+upbeat;EMO;0.70;1.10;JOY
+bright;EMO;0.55;0.80;JOY
+sunny;EMO;0.55;0.80;JOY
+radiant;EMO;0.70;1.10;JOY
+beaming;EMO;0.70;1.10;JOY
+glowing;EMO;0.70;1.10;JOY
+content;EMO;0.55;0.80;JOY
+contented;EMO;0.55;0.80;JOY
+satisfied;EMO;0.55;0.80;JOY
+pleased;EMO;0.55;0.80;JOY
+gratified;EMO;0.70;1.10;JOY
+fulfilled;EMO;0.70;1.10;JOY
+at ease;EMO;0.55;0.80;JOY
+at peace;EMO;0.55;0.80;JOY
+peaceful;EMO;0.55;0.80;JOY
+serene;EMO;0.55;0.80;JOY
+ok;EMO;0.55;0.60;JOY
+calm;EMO;0.55;0.80;JOY
+relaxed;EMO;0.55;0.80;JOY
+lighthearted;EMO;0.70;1.10;JOY
+carefree;EMO;0.70;1.10;JOY
+playful;EMO;0.70;1.10;JOY
+chirpy;EMO;0.70;1.10;JOY
+sprightly;EMO;0.70;1.10;JOY
+lively;EMO;0.70;1.10;JOY
+animated;EMO;0.70;1.10;JOY
+energized;EMO;0.70;1.10;JOY
+revitalized;EMO;0.70;1.10;JOY
+refreshed;EMO;0.55;0.80;JOY
+rejuvenated;EMO;0.70;1.10;JOY
+hopeful;EMO;0.70;1.10;JOY
+optimistic;EMO;0.70;1.10;JOY
+positive;EMO;0.55;0.80;JOY
+encouraged;EMO;0.70;1.10;JOY
+inspired;EMO;0.70;1.10;JOY
+uplifted;EMO;0.70;1.10;JOY
+heartwarmed;EMO;0.70;1.10;JOY
+touched;EMO;0.55;0.80;JOY
+moved;EMO;0.55;0.80;JOY
+grateful;EMO;0.70;1.10;JOY
+thankful;EMO;0.70;1.10;JOY
+appreciative;EMO;0.70;1.10;JOY
+blessed;EMO;0.70;1.10;JOY
+fortunate;EMO;0.70;1.10;JOY
+lucky;EMO;0.70;1.10;JOY
+proud;EMO;0.70;1.10;JOY
+accomplished;EMO;0.70;1.10;JOY
+successful;EMO;0.70;1.10;JOY
+triumphant;EMO;0.95;1.85;JOY
+victorious;EMO;0.95;1.85;JOY
+relieved;EMO;0.55;0.80;JOY
+comforted;EMO;0.55;0.80;JOY
+reassured;EMO;0.55;0.80;JOY
+safe;EMO;0.55;0.80;JOY
+secure;EMO;0.55;0.80;JOY
+loved;EMO;0.70;1.10;JOY
+loving;EMO;0.70;1.10;JOY
+cherished;EMO;0.70;1.10;JOY
+adored;EMO;0.95;1.85;JOY
+smitten;EMO;0.70;1.10;JOY
+enamored;EMO;0.70;1.10;JOY
+affectionate;EMO;0.70;1.10;JOY
+fond;EMO;0.55;0.80;JOY
+warm;EMO;0.55;0.80;JOY
+tender;EMO;0.55;0.80;JOY
+kind;EMO;0.55;0.80;JOY
+friendly;EMO;0.55;0.80;JOY
+welcoming;EMO;0.55;0.80;JOY
+sociable;EMO;0.55;0.80;JOY
+connected;EMO;0.55;0.80;JOY
+included;EMO;0.55;0.80;JOY
+accepted;EMO;0.55;0.80;JOY
+valued;EMO;0.55;0.80;JOY
+respected;EMO;0.55;0.80;JOY
+admired;EMO;0.70;1.10;JOY
+celebratory;EMO;0.70;1.10;JOY
+festive;EMO;0.70;1.10;JOY
+mirthful;EMO;0.70;1.10;JOY
+amused;EMO;0.70;1.10;JOY
+entertained;EMO;0.55;0.80;JOY
+tickled;EMO;0.70;1.10;JOY
+chuckling;EMO;0.55;0.80;JOY
+laughing;EMO;0.70;1.10;JOY
+smiling;EMO;0.55;0.80;JOY
+grinning;EMO;0.70;1.10;JOY
+over the moon;EMO;0.95;1.85;JOY
+on cloud nine;EMO;0.95;1.85;JOY
+in high spirits;EMO;0.70;1.10;JOY
+walking on air;EMO;0.95;1.85;JOY
+on top of the world;EMO;0.95;1.85;JOY
+in a good mood;EMO;0.55;0.80;JOY
+in great spirits;EMO;0.70;1.10;JOY
+feeling great;EMO;0.70;1.10;JOY
+feeling wonderful;EMO;0.95;1.85;JOY
+feeling fantastic;EMO;0.95;1.85;JOY
+on a high;EMO;0.95;1.85;JOY
+bursting with joy;EMO;0.95;1.85;JOY
+full of joy;EMO;0.95;1.85;JOY
+pure bliss;EMO;0.95;1.85;JOY
+blissful;EMO;0.95;1.85;JOY
+enchanted;EMO;0.70;1.10;JOY
+captivated;EMO;0.70;1.10;JOY
+charmed;EMO;0.70;1.10;JOY
+delightful;EMO;0.70;1.10;JOY
+wonderful;EMO;0.70;1.10;JOY
+marvelous;EMO;0.70;1.10;JOY
+fabulous;EMO;0.70;1.10;JOY
+excellent;EMO;0.55;0.80;JOY
+great;EMO;0.55;0.80;JOY
+awesome;EMO;0.70;1.10;JOY
+amazing;EMO;0.70;1.10;JOY
+incredible;EMO;0.70;1.10;JOY
+fantastic;EMO;0.70;1.10;JOY
+spectacular;EMO;0.70;1.10;JOY
+outstanding;EMO;0.70;1.10;JOY
+perfect;EMO;0.70;1.10;JOY
+ideal;EMO;0.55;0.80;JOY
+sublime;EMO;0.70;1.10;JOY
+exhilarated;EMO;0.95;1.85;JOY
+exhilarating;EMO;0.70;1.10;JOY
+invigorated;EMO;0.70;1.10;JOY
+invigorating;EMO;0.70;1.10;JOY
+sparkling;EMO;0.70;1.10;JOY
+bubbly;EMO;0.70;1.10;JOY
+effervescent;EMO;0.70;1.10;JOY
+animatedly;EMO;0.55;0.80;JOY
+cheerfully;EMO;0.70;1.10;JOY
+joyfully;EMO;0.70;1.10;JOY
+happily;EMO;0.70;1.10;JOY
+gladly;EMO;0.55;0.80;JOY
+delightedly;EMO;0.70;1.10;JOY
+gratefully;EMO;0.70;1.10;JOY
+thankfully;EMO;0.70;1.10;JOY
+proudly;EMO;0.70;1.10;JOY
+warmly;EMO;0.55;0.80;JOY
+fondly;EMO;0.55;0.80;JOY
+sweetly;EMO;0.55;0.80;JOY
+brightly;EMO;0.55;0.80;JOY
+radiantly;EMO;0.70;1.10;JOY
+glowingly;EMO;0.70;1.10;JOY
+eager;EMO;0.70;1.10;JOY
+eagerly;EMO;0.55;0.80;JOY
+excited;EMO;0.70;1.30;JOY
+excitedly;EMO;0.70;1.30;JOY
+enthusiastic;EMO;0.70;1.10;JOY
+enthusiastically;EMO;0.70;1.10;JOY
+😀;EMO;0.55;0.80;JOY
+😃;EMO;0.60;0.80;JOY
+😄;EMO;0.70;1.10;JOY
+😁;EMO;0.65;1.30;JOY
+😊;EMO;0.60;1.20;JOY
+☺️;EMO;0.55;0.80;JOY
+😍;EMO;0.75;1.40;JOY
+🥰;EMO;0.80;1.40;JOY
+😘;EMO;0.70;1.40;JOY
+😂;EMO;0.80;1.30;JOY
+🤣;EMO;0.85;1.85;JOY
+😎;EMO;0.55;1.10;JOY
+✨;EMO;0.35;0.90;JOY
+🎉;EMO;0.60;1.30;JOY
+💖;EMO;0.75;1.20;JOY
+❤️;EMO;0.70;1.10;JOY
+
+bored;EMO;-0.70;1.10;SADNESS
+boring;EMO;-0.70;1.10;SADNESS
+sorrow;EMO;-0.70;1.10;SADNESS
+sad;EMO;-0.70;1.10;SADNESS
+sadder;EMO;-0.70;1.10;SADNESS
+saddest;EMO;-0.95;1.85;SADNESS
+unhappy;EMO;-0.70;1.10;SADNESS
+miserable;EMO;-0.95;1.85;SADNESS
+wretched;EMO;-0.95;1.85;SADNESS
+heartbroken;EMO;-0.95;1.85;SADNESS
+devastated;EMO;-0.95;1.85;SADNESS
+crushed;EMO;-0.95;1.85;SADNESS
+shattered;EMO;-0.95;1.85;SADNESS
+bereft;EMO;-0.95;1.85;SADNESS
+despairing;EMO;-0.95;1.85;SADNESS
+hopeless;EMO;-0.95;1.85;SADNESS
+despondent;EMO;-0.95;1.85;SADNESS
+downcast;EMO;-0.70;1.10;SADNESS
+downhearted;EMO;-0.70;1.10;SADNESS
+crestfallen;EMO;-0.70;1.10;SADNESS
+dejected;EMO;-0.70;1.10;SADNESS
+forlorn;EMO;-0.70;1.10;SADNESS
+melancholy;EMO;-0.70;1.10;SADNESS
+melancholic;EMO;-0.70;1.10;SADNESS
+blue;EMO;-0.55;0.80;SADNESS
+low;EMO;-0.55;0.80;SADNESS
+glum;EMO;-0.55;0.80;SADNESS
+gloomy;EMO;-0.70;1.10;SADNESS
+morose;EMO;-0.70;1.10;SADNESS
+dismal;EMO;-0.70;1.10;SADNESS
+somber;EMO;-0.70;1.10;SADNESS
+sombre;EMO;-0.70;1.10;SADNESS
+dreary;EMO;-0.55;0.80;SADNESS
+bleak;EMO;-0.70;1.10;SADNESS
+grim;EMO;-0.70;1.10;SADNESS
+tearful;EMO;-0.70;1.10;SADNESS
+weeping;EMO;-0.95;1.85;SADNESS
+crying;EMO;-0.70;1.10;SADNESS
+sobbing;EMO;-0.95;1.85;SADNESS
+sniffling;EMO;-0.55;0.80;SADNESS
+choking up;EMO;-0.70;1.10;SADNESS
+choked up;EMO;-0.70;1.10;SADNESS
+in tears;EMO;-0.70;1.10;SADNESS
+on the verge of tears;EMO;-0.70;1.10;SADNESS
+mournful;EMO;-0.95;1.85;SADNESS
+mourning;EMO;-0.95;1.85;SADNESS
+grieving;EMO;-0.95;1.85;SADNESS
+grief stricken;EMO;-0.95;1.85;SADNESS
+sorrowful;EMO;-0.95;1.85;SADNESS
+sorrowing;EMO;-0.95;1.85;SADNESS
+woeful;EMO;-0.70;1.10;SADNESS
+pained;EMO;-0.70;1.10;SADNESS
+hurt;EMO;-0.70;1.10;SADNESS
+wounded;EMO;-0.70;1.10;SADNESS
+anguished;EMO;-0.95;1.85;SADNESS
+anguishing;EMO;-0.95;1.85;SADNESS
+tormented;EMO;-0.95;1.85;SADNESS
+tormenting;EMO;-0.70;1.10;SADNESS
+lonely;EMO;-0.70;1.10;SADNESS
+isolated;EMO;-0.70;1.10;SADNESS
+alone;EMO;-0.55;0.80;SADNESS
+abandoned;EMO;-0.95;1.85;SADNESS
+rejected;EMO;-0.70;1.10;SADNESS
+unwanted;EMO;-0.70;1.10;SADNESS
+unloved;EMO;-0.70;1.10;SADNESS
+neglected;EMO;-0.70;1.10;SADNESS
+forgotten;EMO;-0.70;1.10;SADNESS
+homesick;EMO;-0.70;1.10;SADNESS
+nostalgic;EMO;-0.55;0.80;SADNESS
+yearning;EMO;-0.55;0.80;SADNESS
+longing;EMO;-0.55;0.80;SADNESS
+regretful;EMO;-0.70;1.10;SADNESS
+remorseful;EMO;-0.70;1.10;SADNESS
+guilty;EMO;-0.70;1.10;SADNESS
+ashamed;EMO;-0.70;1.10;SADNESS
+self reproachful;EMO;-0.70;1.10;SADNESS
+disappointed;EMO;-0.70;1.10;SADNESS
+disheartened;EMO;-0.70;1.10;SADNESS
+let down;EMO;-0.70;1.10;SADNESS
+disillusioned;EMO;-0.70;1.10;SADNESS
+deflated;EMO;-0.70;1.10;SADNESS
+empty;EMO;-0.70;1.10;SADNESS
+numb;EMO;-0.55;0.80;SADNESS
+emotionally numb;EMO;-0.70;1.10;SADNESS
+withdrawn;EMO;-0.55;0.80;SADNESS
+listless;EMO;-0.55;0.80;SADNESS
+lethargic;EMO;-0.55;0.80;SADNESS
+drained;EMO;-0.70;1.10;SADNESS
+exhausted;EMO;-0.70;1.10;SADNESS
+spent;EMO;-0.55;0.80;SADNESS
+fragile;EMO;-0.55;0.80;SADNESS
+broken;EMO;-0.95;1.85;SADNESS
+in despair;EMO;-0.95;1.85;SADNESS
+in deep sorrow;EMO;-0.95;1.85;SADNESS
+down in the dumps;EMO;-0.70;1.10;SADNESS
+feeling low;EMO;-0.55;0.80;SADNESS
+heavy hearted;EMO;-0.70;1.10;SADNESS
+saddened;EMO;-0.70;1.10;SADNESS
+saddening;EMO;-0.70;1.10;SADNESS
+tragic;EMO;-0.95;1.85;SADNESS
+tragically;EMO;-0.70;1.10;SADNESS
+tearfully;EMO;-0.70;1.10;SADNESS
+sadly;EMO;-0.70;1.10;SADNESS
+miserably;EMO;-0.95;1.85;SADNESS
+despairingly;EMO;-0.95;1.85;SADNESS
+hopelessly;EMO;-0.95;1.85;SADNESS
+gloomily;EMO;-0.70;1.10;SADNESS
+morosely;EMO;-0.70;1.10;SADNESS
+dejectedly;EMO;-0.70;1.10;SADNESS
+forlornly;EMO;-0.70;1.10;SADNESS
+lonelily;EMO;-0.70;1.10;SADNESS
+regretfully;EMO;-0.70;1.10;SADNESS
+remorsefully;EMO;-0.70;1.10;SADNESS
+disappointedly;EMO;-0.70;1.10;SADNESS
+wearily;EMO;-0.55;0.80;SADNESS
+listlessly;EMO;-0.55;0.80;SADNESS
+😢;EMO;-0.70;1.30;SADNESS
+😭;EMO;-0.70;1.70;SADNESS
+🥺;EMO;-0.55;0.90;SADNESS
+😞;EMO;-0.55;1.10;SADNESS
+😔;EMO;-0.65;1.35;SADNESS
+
+afraid;EMO;-0.70;1.10;FEAR
+frightened;EMO;-0.70;1.10;FEAR
+scared;EMO;-0.70;1.10;FEAR
+terrified;EMO;-0.95;1.85;FEAR
+petrified;EMO;-0.95;1.85;FEAR
+panic stricken;EMO;-0.95;1.85;FEAR
+panicked;EMO;-0.95;1.85;FEAR
+panicky;EMO;-0.70;1.10;FEAR
+alarmed;EMO;-0.70;1.10;FEAR
+uneasy;EMO;-0.55;0.80;FEAR
+apprehensive;EMO;-0.70;1.10;FEAR
+anxious;EMO;-0.70;1.10;FEAR
+worried;EMO;-0.70;1.10;FEAR
+concerned;EMO;-0.55;0.80;FEAR
+nervous;EMO;-0.70;1.10;FEAR
+jittery;EMO;-0.70;1.10;FEAR
+on edge;EMO;-0.70;1.10;FEAR
+tense;EMO;-0.70;1.10;FEAR
+trembling;EMO;-0.70;1.10;FEAR
+shaking;EMO;-0.70;1.10;FEAR
+quivering;EMO;-0.70;1.10;FEAR
+quaking;EMO;-0.95;1.85;FEAR
+cowering;EMO;-0.95;1.85;FEAR
+spooked;EMO;-0.70;1.10;FEAR
+spooky;EMO;-0.55;0.80;FEAR
+creepy;EMO;-0.70;1.10;FEAR
+eerie;EMO;-0.55;0.80;FEAR
+unnerved;EMO;-0.70;1.10;FEAR
+unsettled;EMO;-0.70;1.10;FEAR
+disturbed;EMO;-0.70;1.10;FEAR
+rattled;EMO;-0.70;1.10;FEAR
+shaken;EMO;-0.70;1.10;FEAR
+insecure;EMO;-0.55;0.80;FEAR
+unsafe;EMO;-0.70;1.10;FEAR
+threatened;EMO;-0.95;1.85;FEAR
+in danger;EMO;-0.95;1.85;FEAR
+fearful;EMO;-0.70;1.10;FEAR
+fearsome;EMO;-0.70;1.10;FEAR
+timid;EMO;-0.55;0.80;FEAR
+cowardly;EMO;-0.70;1.10;FEAR
+fainthearted;EMO;-0.55;0.80;FEAR
+skittish;EMO;-0.70;1.10;FEAR
+wary;EMO;-0.70;1.10;FEAR
+cautious;EMO;-0.55;0.80;FEAR
+guarded;EMO;-0.55;0.80;FEAR
+suspicious;EMO;-0.70;1.10;FEAR
+paranoid;EMO;-0.95;1.85;FEAR
+terrorized;EMO;-0.95;1.85;FEAR
+dreadful;EMO;-0.70;1.10;FEAR
+dreading;EMO;-0.70;1.10;FEAR
+full of dread;EMO;-0.95;1.85;FEAR
+dread stricken;EMO;-0.95;1.85;FEAR
+foreboding;EMO;-0.70;1.10;FEAR
+ominous;EMO;-0.70;1.10;FEAR
+menaced;EMO;-0.95;1.85;FEAR
+cornered;EMO;-0.95;1.85;FEAR
+trapped;EMO;-0.95;1.85;FEAR
+helpless;EMO;-0.70;1.10;FEAR
+vulnerable;EMO;-0.70;1.10;FEAR
+exposed;EMO;-0.70;1.10;FEAR
+overwhelmed;EMO;-0.70;1.10;FEAR
+overwhelming;EMO;-0.70;1.10;FEAR
+hypervigilant;EMO;-0.70;1.10;FEAR
+restless;EMO;-0.55;0.80;FEAR
+sleepless;EMO;-0.70;1.10;FEAR
+nightmarish;EMO;-0.95;1.85;FEAR
+nightmare like;EMO;-0.95;1.85;FEAR
+spine chilling;EMO;-0.95;1.85;FEAR
+hair raising;EMO;-0.95;1.85;FEAR
+bloodcurdling;EMO;-0.95;1.85;FEAR
+bone chilling;EMO;-0.95;1.85;FEAR
+heart pounding;EMO;-0.95;1.85;FEAR
+heart racing;EMO;-0.70;1.10;FEAR
+breathless;EMO;-0.70;1.10;FEAR
+short of breath;EMO;-0.70;1.10;FEAR
+sweaty;EMO;-0.55;0.80;FEAR
+clammy;EMO;-0.55;0.80;FEAR
+cold sweat;EMO;-0.70;1.10;FEAR
+white knuckled;EMO;-0.70;1.10;FEAR
+frozen;EMO;-0.95;1.85;FEAR
+paralyzed with fear;EMO;-0.95;1.85;FEAR
+fear gripped;EMO;-0.95;1.85;FEAR
+gripped by fear;EMO;-0.95;1.85;FEAR
+in a panic;EMO;-0.95;1.85;FEAR
+panic;EMO;-0.95;1.85;FEAR
+freaked out;EMO;-0.95;1.85;FEAR
+scared stiff;EMO;-0.95;1.85;FEAR
+scared to death;EMO;-0.95;1.85;FEAR
+running scared;EMO;-0.70;1.10;FEAR
+fearful of;EMO;-0.70;1.10;FEAR
+afraid of;EMO;-0.70;1.10;FEAR
+anxiously;EMO;-0.70;1.10;FEAR
+nervously;EMO;-0.70;1.10;FEAR
+worriedly;EMO;-0.70;1.10;FEAR
+fearfully;EMO;-0.70;1.10;FEAR
+frightfully;EMO;-0.70;1.10;FEAR
+terrifiedly;EMO;-0.95;1.85;FEAR
+panickedly;EMO;-0.95;1.85;FEAR
+uneasily;EMO;-0.55;0.80;FEAR
+apprehensively;EMO;-0.70;1.10;FEAR
+cautiously;EMO;-0.55;0.80;FEAR
+warily;EMO;-0.70;1.10;FEAR
+guardedly;EMO;-0.55;0.80;FEAR
+suspiciously;EMO;-0.70;1.10;FEAR
+tensely;EMO;-0.70;1.10;FEAR
+shakily;EMO;-0.70;1.10;FEAR
+tremblingly;EMO;-0.70;1.10;FEAR
+😰;EMO;-0.70;1.80;FEAR
+😨;EMO;-0.70;1.60;FEAR
+😱;EMO;-0.95;1.85;FEAR
+😥;EMO;-0.55;1.10;FEAR
+
+surprised;EMO;0.10;1.10;SURPRISE
+astonished;EMO;0.10;1.10;SURPRISE
+amazed;EMO;0.10;1.10;SURPRISE
+startled;EMO;0.00;1.10;SURPRISE
+stunned;EMO;-0.10;1.85;SURPRISE
+shocked;EMO;-0.10;1.85;SURPRISE
+speechless;EMO;0.10;1.10;SURPRISE
+wide eyed;EMO;0.00;1.10;SURPRISE
+taken aback;EMO;0.00;1.10;SURPRISE
+caught off guard;EMO;0.00;1.10;SURPRISE
+unexpected;EMO;0.00;1.10;SURPRISE
+out of the blue;EMO;0.20;1.10;SURPRISE
+all of a sudden;EMO;0.00;1.10;SURPRISE
+suddenly;EMO;0.00;1.10;SURPRISE
+abrupt;EMO;0.00;1.10;SURPRISE
+abruptly;EMO;0.00;1.10;SURPRISE
+unanticipated;EMO;0.00;1.10;SURPRISE
+unforeseen;EMO;0.00;1.10;SURPRISE
+unpredicted;EMO;0.00;1.10;SURPRISE
+jaw dropping;EMO;0.00;1.10;SURPRISE
+mind blowing;EMO;0.10;1.10;SURPRISE
+eye opening;EMO;0.10;1.10;SURPRISE
+in disbelief;EMO;0.00;1.10;SURPRISE
+disbelieving;EMO;0.00;1.10;SURPRISE
+dumbfounded;EMO;0.00;1.10;SURPRISE
+flabbergasted;EMO;0.20;1.10;SURPRISE
+astounded;EMO;0.00;1.10;SURPRISE
+stupefied;EMO;-0.10;1.85;SURPRISE
+nonplussed;EMO;0.00;1.10;SURPRISE
+perplexed;EMO;0.00;1.10;SURPRISE
+bemused;EMO;0.10;0.80;SURPRISE
+baffled;EMO;0.00;1.10;SURPRISE
+confounded;EMO;0.00;1.10;SURPRISE
+mystified;EMO;0.00;1.10;SURPRISE
+puzzled;EMO;0.00;1.10;SURPRISE
+in wonder;EMO;0.10;1.10;SURPRISE
+wonder struck;EMO;0.10;1.10;SURPRISE
+awed;EMO;0.10;1.10;SURPRISE
+in awe;EMO;0.10;1.10;SURPRISE
+marveling;EMO;0.10;1.10;SURPRISE
+marvelled;EMO;0.10;1.10;SURPRISE
+remarkable;EMO;0.10;1.10;SURPRISE
+extraordinary;EMO;0.10;1.10;SURPRISE
+unbelievable;EMO;0.10;1.10;SURPRISE
+improbable;EMO;0.00;1.10;SURPRISE
+unlikely;EMO;0.00;1.10;SURPRISE
+unusual;EMO;0.00;1.10;SURPRISE
+strange;EMO;0.00;1.10;SURPRISE
+odd;EMO;0.00;1.10;SURPRISE
+peculiar;EMO;0.00;1.10;SURPRISE
+curious;EMO;0.10;0.80;SURPRISE
+intrigued;EMO;0.10;0.80;SURPRISE
+fascinated;EMO;0.10;1.10;SURPRISE
+mesmerized;EMO;0.10;1.10;SURPRISE
+spellbound;EMO;0.10;1.10;SURPRISE
+entranced;EMO;0.10;1.10;SURPRISE
+staggered;EMO;-0.10;1.85;SURPRISE
+floored;EMO;-0.10;1.85;SURPRISE
+blindsided;EMO;-0.10;1.85;SURPRISE
+shell shocked;EMO;-0.10;1.85;SURPRISE
+thunderstruck;EMO;-0.10;1.85;SURPRISE
+reeling;EMO;-0.10;1.85;SURPRISE
+recoiling;EMO;-0.10;1.85;SURPRISE
+gobsmacked;EMO;0.00;1.10;SURPRISE
+aghast;EMO;-0.10;1.85;SURPRISE
+staring;EMO;0.00;1.10;SURPRISE
+double take;EMO;0.00;1.10;SURPRISE
+raised eyebrows;EMO;0.00;1.10;SURPRISE
+eyes widened;EMO;0.00;1.10;SURPRISE
+mouth agape;EMO;0.00;1.10;SURPRISE
+at a loss for words;EMO;0.00;1.10;SURPRISE
+did not see that coming;EMO;0.00;1.10;SURPRISE
+what a surprise;EMO;0.00;1.10;SURPRISE
+no way;EMO;0.00;1.10;SURPRISE
+you are kidding;EMO;0.00;1.10;SURPRISE
+are you serious;EMO;0.00;1.10;SURPRISE
+seriously;EMO;0.00;1.10;SURPRISE
+for real;EMO;0.00;1.10;SURPRISE
+wow;EMO;0.10;0.80;SURPRISE
+whoa;EMO;0.10;0.80;SURPRISE
+oh wow;EMO;0.10;0.80;SURPRISE
+oh my;EMO;0.00;1.10;SURPRISE
+good grief;EMO;-0.10;1.10;SURPRISE
+holy cow;EMO;0.00;1.10;SURPRISE
+holy crap;EMO;-0.10;1.10;SURPRISE
+holy shit;EMO;-0.10;1.85;SURPRISE
+unreal;EMO;0.10;1.10;SURPRISE
+no kidding;EMO;0.00;1.10;SURPRISE
+you must be joking;EMO;0.00;1.10;SURPRISE
+you are joking;EMO;0.00;1.10;SURPRISE
+this is wild;EMO;0.00;1.10;SURPRISE
+that is wild;EMO;0.00;1.10;SURPRISE
+that is crazy;EMO;0.00;1.10;SURPRISE
+that is insane;EMO;0.00;1.10;SURPRISE
+mind blown;EMO;0.10;1.10;SURPRISE
+mind blown right now;EMO;0.10;1.10;SURPRISE
+cannot believe it;EMO;0.00;1.10;SURPRISE
+hard to believe;EMO;0.00;1.10;SURPRISE
+hardly believable;EMO;0.00;1.10;SURPRISE
+left me stunned;EMO;-0.10;1.85;SURPRISE
+left me speechless;EMO;0.00;1.10;SURPRISE
+left me shocked;EMO;-0.10;1.85;SURPRISE
+pleasant surprise;EMO;0.10;0.80;SURPRISE
+pleasantly surprised;EMO;0.10;0.80;SURPRISE
+happily surprised;EMO;0.10;0.80;SURPRISE
+positively surprised;EMO;0.10;0.80;SURPRISE
+in for a surprise;EMO;0.00;1.10;SURPRISE
+surprise twist;EMO;0.00;1.10;SURPRISE
+plot twist;EMO;0.00;1.10;SURPRISE
+sudden turn;EMO;0.00;1.10;SURPRISE
+out of nowhere;EMO;0.00;1.10;SURPRISE
+came as a surprise;EMO;0.00;1.10;SURPRISE
+came out of nowhere;EMO;0.00;1.10;SURPRISE
+caught me by surprise;EMO;0.00;1.10;SURPRISE
+took me by surprise;EMO;0.00;1.10;SURPRISE
+surprisingly;EMO;0.00;1.10;SURPRISE
+astonishingly;EMO;0.00;1.10;SURPRISE
+unexpectedly;EMO;0.00;1.10;SURPRISE
+sudden;EMO;0.00;1.10;SURPRISE
+suddenness;EMO;0.00;1.10;SURPRISE
+outlandish;EMO;0.00;1.10;SURPRISE
+mind boggling;EMO;0.00;1.10;SURPRISE
+jaw dropped;EMO;0.00;1.10;SURPRISE
+jaw drop moment;EMO;0.00;1.10;SURPRISE
+😐;EMO;0.00;1.10;SURPRISE
+😶;EMO;0.00;1.10;SURPRISE
+😮;EMO;0.10;1.80;SURPRISE
+😯;EMO;0.00;1.50;SURPRISE
+😲;EMO;-0.10;1.85;SURPRISE
+😳;EMO;-0.10;1.85;SURPRISE
+
