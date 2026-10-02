@@ -72,7 +72,7 @@ $$
 then mapped to a 0–20 score through a hyperbolic tangent:
 
 $$
-z = \operatorname{clip}\left(\frac{S}{S_{\max}},-1,1\right),
+z = clip\left(\frac{S}{S_{\max}},-1,1\right),
 $$
 
 $$
