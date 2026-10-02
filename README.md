@@ -80,7 +80,7 @@ y = \tanh(1.5z + 0.1),
 $$
 
 $$
-\text{Score}_{20} = \operatorname{clip}(10 + 10y, 0, 20).
+\text{Score}_{20} = clip(10 + 10y, 0, 20).
 $$
 
 The rule engine also models:
